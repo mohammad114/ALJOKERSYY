@@ -131,7 +131,7 @@ ProgressBar = ProgressBar:gsub("░", "▓", 1)
 gg.toast(ProgressBar)
 end
 gg.setVisible(false)
-gg.alert(os.date(" 🤡ALJOKER🇦🇪⁩ＶＩＰ🤡⁦⁦⁦ \n  تم تغيير قروب شروحات راسلني ادخلك لقروب جديد عشان تابع تحديثات"))
+gg.alert(os.date(" 🤡ALJOKER🇦🇪⁩ＶＩＰ🤡⁦⁦⁦ \n  لاتنسى تفعيل حماية الوبي بالتوفيق "))
 HOME = 1
 function HOME()
 MN = gg.choice({
@@ -203,9 +203,9 @@ end
 
 function ABAN()
 SN=gg.multiChoice({
-"『 حماية جميع السيرفرات  تدريب لوبي  🛡️⁩』",
-"『 حماية لوبي جميع السيرفرات رقم 1 🛡️⁩』", 
+"『 حماية جميع السيرفرات تدريب لوبي  رقم 1🛡️⁩』",
 "『 حماية لوبي جميع السيرفرات رقم 2 🛡️⁩』", 
+"『 حماية لوبي جميع السيرفرات رقم 3 🛡️⁩』", 
 "⁦⁦ 🤸 رجوع للخلف 🤸 ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")
 if SN ==nil then else 
