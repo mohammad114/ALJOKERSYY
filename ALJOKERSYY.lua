@@ -555,84 +555,123 @@ gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("135682;144387", gg.TYPE_DWORD)
 gg.refineNumber("135682", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134658;131586", gg.TYPE_DWORD)
 gg.refineNumber("134658", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("4096;135682", gg.TYPE_DWORD)
 gg.refineNumber("4096", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("157567", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135938", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135170", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135426", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135212", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134914;262403", gg.TYPE_DWORD)
 gg.refineNumber("134914", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378;262403", gg.TYPE_DWORD)
 gg.refineNumber("133378", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("131330;133634", gg.TYPE_DWORD)
 gg.refineNumber("131330", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("131842;132098", gg.TYPE_DWORD)
 gg.refineNumber("131842", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133634", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131331", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("132098", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
 gg.clearResults()
 gg.alert("الجوكر تم كسر الحماية")
 end
@@ -645,84 +684,123 @@ gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("135682;144387", gg.TYPE_DWORD)
 gg.refineNumber("135682", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134658;131586", gg.TYPE_DWORD)
 gg.refineNumber("134658", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("4096;135682", gg.TYPE_DWORD)
 gg.refineNumber("4096", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("157567", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135938", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135170", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135426", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135212", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134914;262403", gg.TYPE_DWORD)
 gg.refineNumber("134914", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378;262403", gg.TYPE_DWORD)
 gg.refineNumber("133378", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+
+
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("131330;133634", gg.TYPE_DWORD)
 gg.refineNumber("131330", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
+gg.clearResults()
+
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("131842;132098", gg.TYPE_DWORD)
 gg.refineNumber("131842", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133634", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131331", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("132098", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+
 gg.clearResults()
 gg.searchNumber("909931408;808923191;521", gg.TYPE_DWORD)
 gg.getResults(50000)
