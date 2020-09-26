@@ -2571,7 +2571,7 @@ CLRMN = gg.choice({
 "❰☣️ ʏᴇʟʟᴏᴡ ʙᴏᴅʏ 855 ☣️❱",
 "❰🔵 ʙʟᴜᴇ ʙᴏᴅʏ 855🔵❱",
 "❰🔴 ʀᴇᴅ ʙᴏᴅʏ 855🔴❱",
-"❰🔴 ʏᴇʟʟᴏᴡ ʙᴏᴅʏ 865 🔴❱",
+"❰☣️ ʏᴇʟʟᴏᴡ ʙᴏᴅʏ 865 ☣️❱",
 "❰⬅️ [Back - رجوع]⬅️❱"
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")
 if CLRMN == nil then
@@ -2652,23 +2652,14 @@ end
 
 
 function RED865()
-qmnb = {
-{["memory"] = 1048576},
-{["name"] = "Yellow"},
-{["value"] = 8204, ["type"] = 4},
-{["lv"] = 8192, ["offset"] = 8, ["type"] = 4},
-{["lv"] = 8196, ["offset"] = 16, ["type"] = 4},
-{["lv"] = 8199, ["offset"] = 24, ["type"] = 4},
-{["lv"] = 8200, ["offset"] = 32, ["type"] = 4},
-{["lv"] = 1080035353, ["offset"] = 132, ["type"] = 4},
-}
-qmxg = {
-{["value"] = 6, ["offset"] = 32, ["type"] = 4},
-{["value"] = 120, ["offset"] = -15328, ["type"] = 16},
-{["value"] = 120, ["offset"] = -6240, ["type"] = 16},
-
-}
-xqmnb(qmnb)
+gg.clearResults()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("1194347015;8199;8200;524292;1080037376", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("☣️ ʏᴇʟʟᴏᴡ ʙᴏᴅʏ 865 Activated")
 end
 
 
