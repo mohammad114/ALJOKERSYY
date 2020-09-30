@@ -562,125 +562,131 @@ os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
 os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.clearResults()
+gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.searchNumber("135682;144387", gg.TYPE_DWORD)
+gg.refineNumber("135682", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134658;131586", gg.TYPE_DWORD)
+gg.refineNumber("134658", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("4096;135682", gg.TYPE_DWORD)
+gg.refineNumber("4096", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("134914;262403", gg.TYPE_DWORD)
+gg.refineNumber("134914", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("133378;262403", gg.TYPE_DWORD)
+gg.refineNumber("133378", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131330;133634", gg.TYPE_DWORD)
+gg.refineNumber("131330", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131842;132098", gg.TYPE_DWORD)
+gg.refineNumber("131842", gg.TYPE_DWORD)
+revert = gg.getResults(50000)
+local t = gg.getResults(50000)
+for i, v in ipairs(t) do
+if v.flags == gg.TYPE_DWORD then
+v.value = "0"
+v.freeze = true
+end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.searchNumber("909931408;808923191;521", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("65536;458752;393216:521", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("2008248368;1645178424", gg.TYPE_DWORD)
 gg.getResults(50000)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109377", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("14872", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1,130,852,172;1,852,139,884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("14872", gg.TYPE_DWORD)
 gg.clearResults()
+gg.searchNumber("19507", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("19507", gg.TYPE_DWORD)
 gg.clearResults()
+gg.searchNumber("19145", gg.TYPE_DWORD)
 gg.clearResults()
-gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("19145", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135682", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("19168", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131842", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(50000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.setVisible(false)
-gg.searchNumber("134658", gg.TYPE_DWORD)
-gg.getResults(50000)
-gg.setVisible(false)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.setVisible(false)
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("262403", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber(" 262403", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber(" 12547 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber(" 12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("494490 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("494490", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber(" 98834", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber(" 98834", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.clearResults()
-gg.clearResults()
-gg.processResume()
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.processResume()
-gg.clearResults()
-gg.searchNumber("131330", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.processResume()
-gg.getResults(1000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.processResume()
-gg.clearResults()
-gg.searchNumber("7077893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.processResume()
-gg.clearResults()
-gg.searchNumber("167772164", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1000)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_BAD)
-gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-460", gg.TYPE_FLOAT)
-gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(2)
-gg.editAll("-560", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("250", gg.TYPE_FLOAT)
+gg.searchNumber("19168", gg.TYPE_DWORD)
 gg.clearResults()
 gg.alert("الجوكر تم كسر الحماية")
 end
