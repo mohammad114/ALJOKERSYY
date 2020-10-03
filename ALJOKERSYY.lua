@@ -203,9 +203,9 @@ end
 
 function ABAN()
 SN=gg.multiChoice({
-"『 حماية النسخه العالميه تدريب لوبي 🛡️⁩』",
-"『 حماية لوبي جميع السيرفرات رقم 2 🛡️⁩』",  
-"❰🛡️حمايه النسخه الكوريه⁦🇰🇷⁩ تدريب ولوبي 🛡️❱", 
+"『 حماية النسخه العالميه تدريب لوبي سيرفر 1 فقط 🛡️⁩』",
+"『 حماية لوبي عالميه سيرفر رقم 3 فقط 🛡️⁩』", 
+"❰🛡️حمايه النسخه الكوريه⁦🇰🇷⁩ تدريب ولوبي سيرفر 1 فقط 🛡️❱", 
 "⁦⁦ 🤸 رجوع للخلف 🤸 ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")
 if SN ==nil then else 
@@ -686,165 +686,165 @@ gg.searchNumber("19168", gg.TYPE_DWORD)
 gg.clearResults()
 gg.searchNumber("19168", gg.TYPE_DWORD)
 gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-   if gg.getResultCount() == 0 then
-   gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
-    gg.setVisible(true)
-    gg.processKill()
-    os.exit()
-    else
-    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    resultsCount = gg.getResultCount()
-    results = gg.getResults(resultsCount)
-    for i = 1, resultsCount do
-      gg.addListItems({
-        [1] = {
-          address = results[i].address - 252,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address - 236,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address - 232,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address - 72,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address - 68,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address - 64,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 44,
-          flags = 4,
-          freeze = true,
-          value = 119
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 48,
-          flags = 4,
-          freeze = true,
-          value = 70035
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address +52 ,
-          flags = 4,
-          freeze = true,
-          value = 65537
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 62,
-          flags = 4,
-          freeze = true,
-          value = 70039
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 64,
-          flags = 4,
-          freeze = true,
-          value = 65537
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 68,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 72,
-          flags = 4,
-          freeze = true,
-          value = 70039
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 78,
-          flags = 4,
-          freeze = true,
-          value = 70032
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 200,
-          flags = 4,
-          freeze = true,
-          value = 4451
-        }
-      })
-              gg.addListItems({
-        [1] = {
-          address = results[i].address + 300,
-          flags = 4,
-          freeze = true,
-          value = 0
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 128,
-          flags = 4,
-          freeze = true,
-          value = 70037
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[i].address + 162,
-          flags = 4,
-          freeze = true,
-          value = 70037
-        }
-      })
-  end
-  end
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكدمن العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
+else
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+ resultsCount = gg.getResultCount()
+ results = gg.getResults(resultsCount)
+ for i = 1, resultsCount do
+gg.addListItems({
+[1] = {
+ address = results[i].address - 252,
+ flags = 4,
+ freeze = true,
+ value = 70086
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address - 236,
+ flags = 4,
+ freeze = true,
+ value = 70086
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address - 232,
+ flags = 4,
+ freeze = true,
+ value = 70086
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address - 72,
+ flags = 4,
+ freeze = true,
+ value = 70086
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address - 68,
+ flags = 4,
+ freeze = true,
+ value = 70086
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address - 64,
+ flags = 4,
+ freeze = true,
+ value = 70086
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 44,
+ flags = 4,
+ freeze = true,
+ value = 119
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 48,
+ flags = 4,
+ freeze = true,
+ value = 70035
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address +52 ,
+ flags = 4,
+ freeze = true,
+ value = 65537
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 62,
+ flags = 4,
+ freeze = true,
+ value = 70039
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 64,
+ flags = 4,
+ freeze = true,
+ value = 65537
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 68,
+ flags = 4,
+ freeze = true,
+ value = 70086
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 72,
+ flags = 4,
+ freeze = true,
+ value = 70039
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 78,
+ flags = 4,
+ freeze = true,
+ value = 70032
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 200,
+ flags = 4,
+ freeze = true,
+ value = 4451
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 300,
+ flags = 4,
+ freeze = true,
+ value = 0
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 128,
+ flags = 4,
+ freeze = true,
+ value = 70037
+}
+})
+gg.addListItems({
+[1] = {
+ address = results[i].address + 162,
+ flags = 4,
+ freeze = true,
+ value = 70037
+}
+})
+end
+end
 gg.clearResults()
 gg.clearResults()
 gg.setVisible(false)
@@ -858,6 +858,7 @@ gg.addListItems({ -- table(48715d1)
 gg.clearResults()
 gg.alert("الجوكر تم كسر الحماية")
 end
+
 
 
 
