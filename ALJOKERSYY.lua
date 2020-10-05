@@ -124,6 +124,9 @@ First = gg.isPackageInstalled("me.jagar.jokerantiban") if First == false then gg
 
 -- -- -- -- -- -- -- -- -- --Check open-- -- -- -- -- -- -- -- -- -- --
 
+on = ' [❌] '
+off = ' '
+
 ProgressBar = "║░░░░░░░░░░░░░░░║"
 for _FORV_3_ = 1, 15 do
 gg.sleep(200)
@@ -141,7 +144,6 @@ MN = gg.choice({
 "『✔️ ثـبـات سـلاح 75 لوبي 『』",
 "『🗃️⁩ التفعيلات الامنه بالقيم ⁦『』",
 "⁦⁩⁩『⁦🗃️⁩قائمة التفعيلات غير امنه بالقيم 『』",
-"⁦⁩⁩『⁦⁩⁦🗃️⁩قائمة زيادة دمج الاسلحة بالقيم『』",
 "『🗃️⁩ قائمة الست سكوب بالقيم 『』",
 "『🚀قائمة السرعات بالقيم ⁩⁦『』",
 "『🔚 خروج 『』",
@@ -153,10 +155,9 @@ if MN == 3 then wlhack() end
 if MN == 4 then thbatv2() end
 if MN == 5 then gam() end
 if MN == 6 then gam2() end
-if MN == 7 then gam3() end
-if MN == 8 then standsco() end
-if MN == 9 then speed() end
-if MN == 10 then exit() end
+if MN == 7 then standsco() end
+if MN == 8 then speed() end
+if MN == 9 then exit() end
 end
 PUBGMH = -1
 end
@@ -195,8 +196,6 @@ gg.editAll('220676386071773185', gg.TYPE_QWORD)
 gg.clearResults()
 gg.toast("✅ ɪɴᴛᴇʀɴᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ✅")
 end
-
-
 
 
 
@@ -2125,149 +2124,6 @@ gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD)
 gg.toast("⁦ALJOKER🇦🇪⁩ＶＩＰ🤡🤡  ") 
 end
 
-
-function gam3()
-JK13 = gg.multiChoice({
-"❰🔥زيادة دمج M416❱",
-"❰🔥زيادة دمج SCAR❱",
-"❰🔥زيادة دمج AKM ❱",
-"❰🔥زيادة دمج AWM❱",
-"🆕️『 سرعة الطلق 』",
-"⁦⁦ 🤸 رجوع للخلف 🤸 ",
-}, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")if JOK12 == nil then
-else
-if JK13[1]  == true then MM416() end
-if JK13[2]  == true then SCRL11() end
-if JK13[3] == true then  AKMM5() end
-if JK13[4] == true then AWMM5() end
-if JK13[5]  == true then SPEEDPOM() end
-if JK13[6] == true then HOME() end
-end
-PUBGMH = -1
-end
-
-
-function MM416()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("88000;0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("88000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1401)
-gg.editAll("37401", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("⁦ALJOKER🇦🇪⁩ＶＩＰ🤡🤡  ") 
-end
-
-
-function SCRL11()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("87000;0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("87000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1401)
-gg.editAll("37401", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("⁦ALJOKER🇦🇪⁩ＶＩＰ🤡🤡  ") 
-end
-
-
-function AKMM5() 
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("71500;0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("71500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1401)
-gg.editAll("37401", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("⁦ALJOKER🇦🇪⁩ＶＩＰ🤡🤡  ") 
-end
-
-
-function AWMM5()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("91000;2.2;2.5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1401)
-gg.editAll("37401", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("⁦ALJOKER🇦🇪⁩ＶＩＰ🤡🤡  ") 
-end
-
-function SPEEDPOM()
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("30D;10D;0F~1F;257D;3D::17", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.08600000292", 16, false, 536870912, 0, -1)
-gg.getResults(50)
-gg.editAll("0.04200000272", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("30D;10D;0F~1F;257D;3D::17", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.09600000083", 16, false, 536870912, 0, -1)
-gg.getResults(50)
-gg.editAll("0.04800000022", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("30D;10D;0F~1F;257D;3D::17", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.10000000149", 16, false, 536870912, 0, -1)
-gg.getResults(50)
-gg.editAll("0.001", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("90000", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("91000", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("76000", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("79000", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("33000", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("500000", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("40000", 16, false, 536870912, 0, -1)
-gg.getResults(800)
-gg.editAll("500000", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("0.64999997616;0.89999997616;0.64999997616;1.5;0.80000001192;0.00999999978", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.64999997616", 16, false, 536870912, 0, -1)
-gg.getResults(200)
-gg.editAll("-999", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("1.79999995232;1.79999995232;4;1.09375", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("0", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("35000", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("300000", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("16000", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("200000", 16)
-gg.clearResults()
-gg.toast("تم تفعيل الطلق السحري")
-end
-
 function wlhack()
 BDYMN = gg.choice({
 "❰⁦📱 قائمة الول هاك 📱❱",
@@ -3128,57 +2984,48 @@ gg.clearResults()
 gg.toast("Red Body Activated")
 end
 
+frontscoppp = off
+sitscoppp = off
+standscoppp = off
 
 function standsco()
 standhadiM = gg.multiChoice({
-" ⬆️⁩ تشغيل سيت سكوب ⁦⬆️ ⁩⁩",
-" 🔽 ايقاف سيت سكوب ⁦🔽 ⁩⁩",
-" ⬆️⁩ تشغيل ستاند سكوب ⁦⬆️ ⁩⁩",
-" 🔽 ايقاف ستاند سكوب ⁦🔽 ⁩⁩",
-" ⬆️⁩ تشغيل ستاند شوت ⁦⬆️ ⁩⁩",
-" 🔽 ايقاف ستاند شوت ⁦🔽 ⁩⁩",
+" ⬆️⁩ سيت سكوب ⁦⬆️ ⁩⁩"..sitscoppp,
+" ⬆️⁩ فرونت سكوب ⁦⬆️ ⁩⁩"..frontscoppp,
+" ⬆️⁩ ستاند سكوب ⁦⬆️ ⁩⁩"..standscoppp,
 "⁦⁦ 🤸 رجوع للخلف 🤸 ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")
 if standhadiM == nil then else
-if standhadiM[1] == true then SITONESCOP() end
-if standhadiM[2] == true then SITSCOPEOFF() end
-if standhadiM[3] == true then STANDSCOPEON() end
-if standhadiM[4] == true then STANDSCOPEOFF() end
-if standhadiM[5] == true then SOON() end
-if standhadiM[6] == true then SOFF() end
-if standhadiM[7] == true then HOME() end
+if standhadiM[1] == true then SITSCOPEON() end
+if standhadiM[2] == true then FRONTSCOPEON() end
+if standhadiM[3] == true then STANDSCOPE() end
+if standhadiM[4] == true then HOME() end
 end
 PUBGMH = -1
 end
 
-
-function SITONESCOP()
+function SITSCOPEON()
+if sitscoppp == off then
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("-0.67914116382599;-0.20633073151112;-0.68966287374496;9.49029350281;0.0064272880554199", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-local t = gg.getResults(0)
-gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-local t = gg.getResults(500)
-gg.editAll("124", gg.TYPE_FLOAT)
+gg.searchNumber("18.38787841797;0.53867292404;-3.42232513428;1.77635705e-15:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("18.38787841797", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+sitscoppps1 = gg.getResults(2805)
+gg.editAll("130.5419921875", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("  تم  تشغيل الست سكوب ")
+gg.toast('Sit Scope activated!')
+sitscoppp = on
+else
+gg.clearResults()
+gg.setValues(sitscoppps1)
+gg.clearResults()
+gg.toast("Sit Scope Deactivated")
+sitscoppp = off
+end
 end
 
-
-function SITSCOPEOFF()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("-0.67914116382599;-0.20633073151112;-0.68966287374496;124;0.0064272880554199", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-local t = gg.getResults(0)
-gg.searchNumber("124", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-local t = gg.getResults(500)
-gg.editAll("9.49029350281", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast(" تم  ايقاف الست سكوب ")
-end
-
-
-function STANDSCOPEON()
+function STANDSCOPE()
+if standscoppp == off then
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber('4138667321167981973', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -3189,11 +3036,9 @@ gg.refineNumber('4138667321167981973', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -
 gg.getResults(1401)
 gg.editAll('4848124999984742400', gg.TYPE_QWORD)
 gg.clearResults()
-gg.toast('Sit Scope Front activated!')
-end
-
-
-function STANDSCOPEOFF()
+gg.toast('Stand Scope activated!')
+standscoppp = on
+else
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber('4848124999984742400', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -3204,28 +3049,31 @@ gg.refineNumber('4848124999984742400', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -
 gg.getResults(1401)
 gg.editAll('4138667321167981973', gg.TYPE_QWORD)
 gg.clearResults()
-gg.toast('Stand Scope Deactivated!')
+gg.toast("Stand Scope Deactivated")
+standscoppp = off
+end
 end
 
-function SOON()
-gg.clearResults()              
-gg.setRanges(gg.REGION_C_BSS)            
-gg.searchNumber('3497450139768418399', gg.TYPE_QWORD)            
-gg.getResults(69)             
-gg.editAll('9074961892185783746', gg.TYPE_QWORD)            
-gg.clearResults()               
-gg.toast('on!')
+function FRONTSCOPEON()
+if frontscoppp == off then
+gg.clearResults()
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber('3497450139768418399', gg.TYPE_QWORD)
+gg.getResults(69)
+gg.editAll('9074961892185783746', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast('Stand Scope Front activated!')
+frontscoppp = on
+else
+gg.clearResults()
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber('9074961892185783746', gg.TYPE_QWORD)
+gg.getResults(69)
+gg.editAll('3497450139768418399', gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast("Stand Scope Front Deactivated")
+frontscoppp = off
 end
-
-
-function SOFF()
-gg.clearResults()               
-gg.setRanges(gg.REGION_C_BSS)              
-gg.searchNumber('9074961892185783746', gg.TYPE_QWORD)              
-gg.getResults(69)              
-gg.editAll('3497450139768418399', gg.TYPE_QWORD)               
-gg.clearResults()               
-gg.toast('off!')
 end
 
 
