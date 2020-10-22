@@ -729,35 +729,6 @@ end
     gg.searchNumber('132098', gg.TYPE_DWORD)
     gg.getResults(50000)
     gg.editAll('70086', gg.TYPE_DWORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608:45",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
-gg.searchNumber("196,608",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
-gg.getResults(100)
-jg=gg.getResults(100)
-sl=gg.getResultCount()
-for i = 1, sl do
-dzy=jg[i].address
-gg.addListItems({[1] = {address = dzy,flags =gg.TYPE_DWORD,freeze = true,value = 110}})
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.84059112e-35;1.84059112e-35;1.84059112e-35", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.84059112e-35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-jg=gg.getResults(100)
-sl=gg.getResultCount()
-for i = 1, sl do
-dzy=jg[i].address
-gg.addListItems({[1] = {address = dzy,flags =gg.TYPE_DWORD,freeze = true,value = 110}})
-end
-gg.clearResults()
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
