@@ -1421,7 +1421,7 @@ end
 
 
 function gam2()
-JOK13 = gg.multiChoice({
+JOK12 = gg.multiChoice({
 "💯    ثبات سلاح 100٪      💯",
 "🤡       طلقة الجوكر          🤡",
 "🔥    1 SHOT JOKER        ⁩️🔥",
@@ -1439,21 +1439,21 @@ JOK13 = gg.multiChoice({
 "⁦⁦ ❎ رجوع للخلف ❎ ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")if JOK12 == nil then
 else
-if JOK13[1]  == true then NOREC() end
-if JOK13[2]  == true then HS95() end
-if JOK13[3]  == true then shot() end
-if JOK13[4]  == true then mixhead() end
-if JOK13[5]  == true then mixhead22() end
-if JOK13[6]  == true then HS100() end
-if JOK13[7]  == true then HSHOT600() end
-if JOK13[8]  == true then instanthit() end
-if JOK13[9]  == true then aimbotv1() end
-if JOK13[10]  == true then aimbotv2() end
-if JOK13[11]  == true then aimluck() end
-if JOK13[12]  == true then magicv1() end
-if JOK13[13] == true then jumptojump()end
-if JOK13[14] == true then jumptojump1()end
-if JOK13[15] == true then HOME() end
+if JOK12[1]  == true then NOREC() end
+if JOK12[2]  == true then HS95() end
+if JOK12[3]  == true then shot() end
+if JOK12[4]  == true then mixhead() end
+if JOK12[5]  == true then mixhead22() end
+if JOK12[6]  == true then HS100() end
+if JOK12[7]  == true then HSHOT600() end
+if JOK12[8]  == true then instanthit() end
+if JOK12[9]  == true then aimbotv1() end
+if JOK12[10]  == true then aimbotv2() end
+if JOK12[11]  == true then aimluck() end
+if JOK12[12]  == true then magicv1() end
+if JOK12[13] == true then jumptojump()end
+if JOK12[14] == true then jumptojump1()end
+if JOK12[15] == true then HOME() end
 end
 PUBGMH = -1
 end
