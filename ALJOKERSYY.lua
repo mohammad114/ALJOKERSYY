@@ -198,7 +198,6 @@ end
 
 
 
-
 function ABAN()
 SN=gg.multiChoice({
 "『 حماية النسخه العالميه تدريب لوبي سيرفر 1 فقط 🛡️⁩』",
@@ -1258,6 +1257,7 @@ end
 
 function gam()
 JOK12 = gg.multiChoice({
+"طيران اللاعب طول القيم  『』",
 "🎯     هيدشوت 50٪    🎯",
 "🎯   هيدشوت 75٪      🎯",
 "➕     صليب صغير      ➕",
@@ -1269,59 +1269,68 @@ JOK12 = gg.multiChoice({
 "⁦⁦ ❎ رجوع للخلف ❎ ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")if JOK12 == nil then
 else
-if JOK12[1] == true then HS50() end
-if JOK12[2] == true then HS75() end
-if JOK12[3] == true then puls() end
-if JOK12[4] == true then camera360on() end
-if JOK12[5] == true then nogras() end
-if JOK12[6] == true then nofog() end
-if JOK12[7] == true then blacksky() end
-if JOK12[8] == true then ANTENAL() end
-if JOK12[9] == true then HOME() end
+if JOK12[1] == true then FLYINGPLYR() end
+if JOK12[2] == true then HS50() end
+if JOK12[3] == true then HS75() end
+if JOK12[4] == true then puls() end
+if JOK12[5] == true then camera360on() end
+if JOK12[6] == true then nogras() end
+if JOK12[7] == true then nofog() end
+if JOK12[8] == true then blacksky() end
+if JOK12[9] == true then ANTENAL() end
+if JOK12[10] == true then HOME() end
 end
 PUBGMH = -1
+end
+
+function FLYINGPLYR()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1024;3000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1024;3000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Parachute Antifall Activated")
 end
 
 
 function HS50()
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("120;150", gg.TYPE_FLOAT)
+qmnb = {
+ {["memory"] = 32},
+ {["name"] = "Headshot 50% Activated"},
+ {["value"] = 30.5, ["type"] = 16},
+ {["lv"] = 23.0, ["offset"] = -8, ["type"] = 16},
+ {["lv"] = 25.0, ["offset"] = -4, ["type"] = 16},
+ {["lv"] = 0.0, ["offset"] = 4, ["type"] = 16},
+}
+qmxg = {
+ {["value"] = 150, ["offset"] = 0, ["type"] = 16},
+ {["value"] = 150, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
 gg.clearResults()
 gg.toast("ALJOKER🇦🇪⁩ＶＩＰ🤡")
 end
 
 
 function HS75()
-gg.clearResults() 
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP) 
-gg.searchNumber('"0.10000000149;64.50088500977"', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.refineNumber('"0.10000000149"', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(50) 
-gg.editAll("8", gg.TYPE_FLOAT) 
-gg.clearResults() 
-gg.clearResults() 
-gg.setRanges(gg.REGION_ANONYMOUS) 
-gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(100) 
-gg.editAll("175", gg.TYPE_FLOAT) 
-gg.clearResults() 
-gg.clearResults() 
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP) 
-gg.searchNumber("-298284466;-1.304566e23F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
-gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) 
-gg.getResults(99) 
-gg.editAll("0", gg.TYPE_DWORD) 
-gg.clearResults() 
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)  
-gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)  
-gg.getResults(99) 
-gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD) 
-gg.clearResults() 
+gg.clearResults()
+qmnb = {
+ {["memory"] = 32},
+ {["name"] = "Headshot 75% Activated"},
+ {["value"] = 30.5, ["type"] = 16},
+ {["lv"] = 23.0, ["offset"] = -8, ["type"] = 16},
+ {["lv"] = 25.0, ["offset"] = -4, ["type"] = 16},
+ {["lv"] = 0.0, ["offset"] = 4, ["type"] = 16},
+}
+qmxg = {
+ {["value"] = 180, ["offset"] = 0, ["type"] = 16},
+ {["value"] = 180, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
+gg.clearResults()
 gg.toast("ALJOKER🇦🇪⁩ＶＩＰ🤡") 
 end
 
@@ -1529,19 +1538,19 @@ gg.getResults(50)
 gg.editAll("8", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("230", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-gg.searchNumber("-298284466;-1.304566e23F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(99)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
+qmnb = {
+ {["memory"] = 32},
+ {["name"] = "Headshot 100% Activated"},
+ {["value"] = 30.5, ["type"] = 16},
+ {["lv"] = 23.0, ["offset"] = -8, ["type"] = 16},
+ {["lv"] = 25.0, ["offset"] = -4, ["type"] = 16},
+ {["lv"] = 0.0, ["offset"] = 4, ["type"] = 16},
+}
+qmxg = {
+ {["value"] = 250, ["offset"] = 0, ["type"] = 16},
+ {["value"] = 250, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
 gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -1554,40 +1563,19 @@ end
 
 function HS95()
 gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)
-gg.searchNumber("26", 16, false, 536870912, 0, -1)
-gg.getResults(2)
-gg.editAll("-460", 16)
-gg.clearResults()
-gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)
-gg.searchNumber("28", 16, false, 536870912, 0, -1)
-gg.getResults(2)
-gg.editAll("-560", 16)
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)
-gg.searchNumber("30.5;25", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("253", 16)
-gg.clearResults()
-gg.setRanges(16)
-gg.searchNumber("2048D;1F", 16, false, 536870912, 0, -1)
-gg.searchNumber("1", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("0.07", 16)
-gg.clearResults()
-gg.setRanges(16384)
-gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("125", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
-gg.getResults(500)
-gg.editAll("-125", 16)
+qmnb = {
+ {["memory"] = 32},
+ {["name"] = "Headshot 95% Activated"},
+ {["value"] = 30.5, ["type"] = 16},
+ {["lv"] = 23.0, ["offset"] = -8, ["type"] = 16},
+ {["lv"] = 25.0, ["offset"] = -4, ["type"] = 16},
+ {["lv"] = 0.0, ["offset"] = 4, ["type"] = 16},
+}
+qmxg = {
+ {["value"] = 200, ["offset"] = 0, ["type"] = 16},
+ {["value"] = 200, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
 gg.clearResults()
 gg.toast("⁦ALJOKER🇦🇪⁩ＶＩＰ🤡🤡⁦") 
 end
@@ -1613,41 +1601,31 @@ end
 
 function mixhead()
 gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("0.10000000149;64.50088500977", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("8", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)
-gg.searchNumber("26", 16, false, 536870912, 0, -1)
-gg.getResults(2)
-gg.editAll("-460", 16)
 gg.clearResults()
-gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)
-gg.searchNumber("28", 16, false, 536870912, 0, -1)
-gg.getResults(2)
-gg.editAll("-560", 16)
+qmnb = {
+ {["memory"] = 32},
+ {["name"] = "Headshot 100% Activated"},
+ {["value"] = 30.5, ["type"] = 16},
+ {["lv"] = 23.0, ["offset"] = -8, ["type"] = 16},
+ {["lv"] = 25.0, ["offset"] = -4, ["type"] = 16},
+ {["lv"] = 0.0, ["offset"] = 4, ["type"] = 16},
+}
+qmxg = {
+ {["value"] = 250, ["offset"] = 0, ["type"] = 16},
+ {["value"] = 250, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
 gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)
-gg.searchNumber("30.5;25", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("253", 16)
-gg.clearResults()
-gg.setRanges(16)
-gg.searchNumber("2048D;1F", 16, false, 536870912, 0, -1)
-gg.searchNumber("1", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("0.07", 16)
-gg.clearResults()
-gg.setRanges(16384)
-gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("125", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
-gg.getResults(500)
-gg.editAll("-125", 16)
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99)
+gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD)
 gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
@@ -1677,40 +1655,31 @@ end
 
 function mixhead22()
 gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)
-gg.searchNumber("26", 16, false, 536870912, 0, -1)
-gg.getResults(2)
-gg.editAll("-460", 16)
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("0.10000000149;64.50088500977", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("8", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)
-gg.searchNumber("28", 16, false, 536870912, 0, -1)
-gg.getResults(2)
-gg.editAll("-560", 16)
 gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)
-gg.searchNumber("30.5;25", 16, false, 536870912, 0, -1)
-gg.getResults(10)
-gg.editAll("253", 16)
+qmnb = {
+ {["memory"] = 32},
+ {["name"] = "Headshot 100% Activated"},
+ {["value"] = 30.5, ["type"] = 16},
+ {["lv"] = 23.0, ["offset"] = -8, ["type"] = 16},
+ {["lv"] = 25.0, ["offset"] = -4, ["type"] = 16},
+ {["lv"] = 0.0, ["offset"] = 4, ["type"] = 16},
+}
+qmxg = {
+ {["value"] = 250, ["offset"] = 0, ["type"] = 16},
+ {["value"] = 250, ["offset"] = -4, ["type"] = 16},
+}
+xqmnb(qmnb)
 gg.clearResults()
-gg.setRanges(16)
-gg.searchNumber("2048D;1F", 16, false, 536870912, 0, -1)
-gg.searchNumber("1", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("0.07", 16)
-gg.clearResults()
-gg.setRanges(16384)
-gg.searchNumber("9.1022205e-38;0.0001;9.1025635e-38::", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
-gg.getResults(100)
-gg.editAll("125", 16)
-gg.clearResults()
-gg.setRanges(131072)
-gg.searchNumber("-7.1611644e24;0.0001;1.1297201e-37::", 16, false, 536870912, 0, -1)
-gg.searchNumber("0.0001", 16, false, 536870912, 0, -1)
-gg.getResults(500)
-gg.editAll("-125", 16)
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99)
+gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD)
 gg.clearResults()
 gg.sleep(500)
 gg.setRanges(16384)
