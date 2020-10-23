@@ -907,35 +907,6 @@ gg.searchNumber('"117441793"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(11082001)
 gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608:45",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
-gg.searchNumber("196,608",gg.TYPE_DWORD,false,gg.SIGN_EQUAL,0, -1)
-gg.getResults(100)
-jg=gg.getResults(100)
-sl=gg.getResultCount()
-for i = 1, sl do
-dzy=jg[i].address
-gg.addListItems({[1] = {address = dzy,flags =gg.TYPE_DWORD,freeze = true,value = 110}})
-end
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("1.84059112e-35;1.84059112e-35;1.84059112e-35", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1.84059112e-35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-jg=gg.getResults(100)
-sl=gg.getResultCount()
-for i = 1, sl do
-dzy=jg[i].address
-gg.addListItems({[1] = {address = dzy,flags =gg.TYPE_DWORD,freeze = true,value = 110}})
-end
-gg.clearResults()
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
@@ -1315,6 +1286,7 @@ gg.toast("ALJOKER🇦🇪⁩ＶＩＰ🤡")
 end
 
 
+
 function HS75()
 gg.clearResults()
 qmnb = {
@@ -1333,6 +1305,7 @@ xqmnb(qmnb)
 gg.clearResults()
 gg.toast("ALJOKER🇦🇪⁩ＶＩＰ🤡") 
 end
+
 
 
 function camera360on()
@@ -1409,7 +1382,7 @@ end
 
 
 function gam2()
-JOK12 = gg.multiChoice({
+JOK13 = gg.multiChoice({
 "💯    ثبات سلاح 100٪      💯",
 "🤡       طلقة الجوكر          🤡",
 "🔥    1 SHOT JOKER        ⁩️🔥",
@@ -1427,21 +1400,21 @@ JOK12 = gg.multiChoice({
 "⁦⁦ ❎ رجوع للخلف ❎ ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")if JOK12 == nil then
 else
-if JOK12[1]  == true then NOREC() end
-if JOK12[2]  == true then HS95() end
-if JOK12[3]  == true then shot() end
-if JOK12[4]  == true then mixhead() end
-if JOK12[5]  == true then mixhead22() end
-if JOK12[6]  == true then HS100() end
-if JOK12[7]  == true then HSHOT600() end
-if JOK12[8]  == true then instanthit() end
-if JOK12[9]  == true then aimbotv1() end
-if JOK12[10]  == true then aimbotv2() end
-if JOK12[11]  == true then aimluck() end
-if JOK12[12]  == true then magicv1() end
-if JOK12[13] == true then jumptojump()end
-if JOK12[14] == true then jumptojump1()end
-if JOK12[15] == true then HOME() end
+if JOK13[1]  == true then NOREC() end
+if JOK13[2]  == true then HS95() end
+if JOK13[3]  == true then shot() end
+if JOK13[4]  == true then mixhead() end
+if JOK13[5]  == true then mixhead22() end
+if JOK13[6]  == true then HS100() end
+if JOK13[7]  == true then HSHOT600() end
+if JOK13[8]  == true then instanthit() end
+if JOK13[9]  == true then aimbotv1() end
+if JOK13[10]  == true then aimbotv2() end
+if JOK13[11]  == true then aimluck() end
+if JOK13[12]  == true then magicv1() end
+if JOK13[13] == true then jumptojump()end
+if JOK13[14] == true then jumptojump1()end
+if JOK13[15] == true then HOME() end
 end
 PUBGMH = -1
 end
