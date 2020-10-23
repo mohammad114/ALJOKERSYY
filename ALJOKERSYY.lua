@@ -1229,6 +1229,7 @@ end
 
 function gam()
 JOK12 = gg.multiChoice({
+"طيران اللاعب طول القيم  『』",
 "🎯     هيدشوت 50٪    🎯",
 "🎯   هيدشوت 75٪      🎯",
 "➕     صليب صغير      ➕",
@@ -1240,19 +1241,30 @@ JOK12 = gg.multiChoice({
 "⁦⁦ ❎ رجوع للخلف ❎ ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")if JOK12 == nil then
 else
-if JOK12[1] == true then HS50() end
-if JOK12[2] == true then HS75() end
-if JOK12[3] == true then puls() end
-if JOK12[4] == true then camera360on() end
-if JOK12[5] == true then nogras() end
-if JOK12[6] == true then nofog() end
-if JOK12[7] == true then blacksky() end
-if JOK12[8] == true then ANTENAL() end
-if JOK12[9] == true then HOME() end
+if JOK12[1] == true then FLYINGPLYR() end
+if JOK12[2] == true then HS50() end
+if JOK12[3] == true then HS75() end
+if JOK12[4] == true then puls() end
+if JOK12[5] == true then camera360on() end
+if JOK12[6] == true then nogras() end
+if JOK12[7] == true then nofog() end
+if JOK12[8] == true then blacksky() end
+if JOK12[9] == true then ANTENAL() end
+if JOK12[10] == true then HOME() end
 end
 PUBGMH = -1
 end
 
+function FLYINGPLYR()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1024;3000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1024;3000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9999999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Parachute Antifall Activated")
+end
 
 function HS50()
 gg.clearResults()
