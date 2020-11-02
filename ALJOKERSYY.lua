@@ -1299,7 +1299,7 @@ for i, i in ipairs((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)))
     i.freeze = true
   end
 end
-gg.alert(" الجوكر تم كسر الحماية قم بتشغيل سكربت وثبات سلاح")
+gg.alert(" الجوكر تم كسر الحماية")
 end
 
 
@@ -3507,10 +3507,6 @@ gg.sleep(1000)
 if revert ~= nil then gg.setValues(revert) end
 gg.clearResults()
 end
-
-
-
-
 
 function appgap() 
 gg.clearResults()
