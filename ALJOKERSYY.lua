@@ -197,7 +197,7 @@ SN=gg.multiChoice({
 "『 حماية النسخه العالميه تدريب لوبي سيرفر 1 فقط 🛡️⁩』",
 "『 حماية لوبي جميع السيرفرات رقم 2 🛡️⁩』", 
 "『 حماية لوبي جميع السيرفرات رقم 3 🛡️⁩』", 
-"❰🛡️حمايه النسخه الكوريه⁦🇰🇷⁩ تدريب ولوبي سيرفر 1 فقط 🛡️❱", 
+"『 حماية لوبي جميع السيرفرات رقم 4 🛡️⁩』", 
 "⁦⁦ 🤸 رجوع للخلف 🤸 ",
 }, nil, "╔─━━━━━━━━░░ 🇦🇪  ░░━━━━━━━━─╗\n             🔹🔹〘 ALJOKER114 〙🔹\n🔹 Telegram ⟮ @ALKING114 ⟯ للتواصل 🔹 \n╚─━━━━━━━━░░ 🇦🇪   ░░━━━━━━━━─╝")
 if SN ==nil then else 
@@ -265,10 +265,7 @@ gg.alert('العوده للوبي وتفعيل حماية لوبي سيرفر 1'
 end
 
 function R3()
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
-os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -279,33 +276,30 @@ gg.processKill()
 os.exit()
 else
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address - 252,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 236,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 232,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 72,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 68,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 64,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 30,flags = 4,freeze = true,value = 119}})
-gg.addListItems({[1] = {address = jz[i].address + 130,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 180,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 200,flags = 4,freeze = true,value = 4451}})
-gg.addListItems({[1] = {address = jz[i].address + 300,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 310,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 360,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 450,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 650,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 800,flags = 4,freeze = true,value = 70086}})
+resultsCount = gg.getResultCount()
+results = gg.getResults(resultsCount)
+for i = 1, resultsCount do
+gg.addListItems({[1] = {address = results[i].address + 1,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 8,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 16,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 20,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 28,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 43,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 47,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 52,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 59,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 63,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 65,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 75,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 83,flags = 4,freeze = true,value = 65537}})
 end
 gg.clearResults()
 end
 gg.clearResults()
-gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
 gg.setVisible(false)
+gg.clearResults()
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -322,13 +316,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -336,11 +330,11 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_QWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_QWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
 gg.clearResults()
 gg.setVisible(false)
@@ -349,13 +343,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -363,13 +357,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -377,11 +371,11 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
 gg.clearResults()
 gg.setVisible(false)
@@ -390,13 +384,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -404,11 +398,11 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_QWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_QWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
 gg.clearResults()
 gg.setVisible(false)
@@ -417,13 +411,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -431,13 +425,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -449,13 +443,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -463,11 +457,11 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_QWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_QWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
 gg.clearResults()
 gg.setVisible(false)
@@ -476,13 +470,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -490,13 +484,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -504,11 +498,11 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
 gg.clearResults()
 gg.setVisible(false)
@@ -517,13 +511,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -531,11 +525,11 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_QWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_QWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
 gg.clearResults()
 gg.setVisible(false)
@@ -544,13 +538,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -558,19 +552,25 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local JOKERM114 = gg.getResults(140701)
+for i, v in ipairs(JOKERM114) do
+JOKERM114[i].flags = gg.TYPE_DWORD
+JOKERM114[i].value = '0'
+JOKERM114[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(JOKERM114)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
 gg.setVisible(false)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("11,932;12,004;32,768;65,536", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
@@ -662,221 +662,150 @@ end
 
 
 function AL2()
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations")
+os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 if gg.getResultCount() == 0 then
-gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌ \n\nقم بتحميل نسخة ال32 بت")
 gg.setVisible(true)
 gg.processKill()
 os.exit()
 else
 gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address - 252,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 236,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 232,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 72,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 68,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 64,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 30,flags = 4,freeze = true,value = 119}})
-gg.addListItems({[1] = {address = jz[i].address + 130,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 180,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 200,flags = 4,freeze = true,value = 4451}})
-gg.addListItems({[1] = {address = jz[i].address + 300,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 310,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 360,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 450,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 650,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 800,flags = 4,freeze = true,value = 70086}})
+resultsCount = gg.getResultCount()
+results = gg.getResults(resultsCount)
+for i = 1, resultsCount do
+gg.addListItems({[1] = {address = results[i].address + 1,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 8,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 16,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 20,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 28,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 43,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 47,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 52,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 59,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 63,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 65,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 75,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 83,flags = 4,freeze = true,value = 65537}})
 end
 gg.clearResults()
 end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.setVisible(false)
-    gg.searchNumber('135682;144387', gg.TYPE_DWORD)
-    gg.refineNumber('135682', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.setVisible(false)
-    gg.editAll('4451', gg.TYPE_DWORD)
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.setVisible(false)
-    gg.searchNumber('134658;131586', gg.TYPE_DWORD)
-    gg.refineNumber('134658', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.setVisible(false)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.setVisible(false)
-    gg.searchNumber('4096;135682', gg.TYPE_DWORD)
-    gg.refineNumber('4096', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.setVisible(false)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('157567', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('135938', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.editAll('119', gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('135170', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('135426', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.editAll('119', gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('135212', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.setVisible(false)
-    gg.searchNumber('134914;262403', gg.TYPE_DWORD)
-    gg.refineNumber('134914', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.setVisible(false)
-    gg.editAll('119', gg.TYPE_DWORD)
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.setVisible(false)
-    gg.searchNumber('133378;262403', gg.TYPE_DWORD)
-    gg.refineNumber('133378', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.setVisible(false)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.setVisible(false)
-    gg.searchNumber('131330;133634', gg.TYPE_DWORD)
-    gg.refineNumber('131330', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.setVisible(false)
-    gg.editAll('0', gg.TYPE_DWORD)
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.setVisible(false)
-    gg.searchNumber('131842;132098', gg.TYPE_DWORD)
-    gg.refineNumber('131842', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.setVisible(false)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('133634', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.editAll('70086', gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('132098', gg.TYPE_DWORD)
-    gg.getResults(50000)
-    gg.editAll('70086', gg.TYPE_DWORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1.47977118e-41",16, false, 536870912, 0, -1)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
+gg.setVisible(false)
+gg.searchNumber('135682;144387', gg.TYPE_DWORD)
+gg.refineNumber('135682', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('4451', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1.47935079e-41",16,false ,536870912, 0, -1)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
+gg.setVisible(false)
+gg.searchNumber('134658;131586', gg.TYPE_DWORD)
+gg.refineNumber('134658', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1.4789304e-41",16,false ,536870912, 0, -1)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
+gg.setVisible(false)
+gg.searchNumber('4096;135682', gg.TYPE_DWORD)
+gg.refineNumber('4096', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("4.74745907e-41",16,false ,536870912, 0, -1)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
+gg.searchNumber('157567', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1.54563795e-38",16,false ,536870912, 0, -1)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
+gg.searchNumber('135938', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('119', gg.TYPE_DWORD)
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1.0131465e-38",16,false ,536870912, 0, -1)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
+gg.searchNumber('135170', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('135426', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('119', gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('135212', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('134914;262403', gg.TYPE_DWORD)
+gg.refineNumber('134914', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('119', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('133378;262403', gg.TYPE_DWORD)
+gg.refineNumber('133378', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('131330;133634', gg.TYPE_DWORD)
+gg.refineNumber('131330', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('131842;132098', gg.TYPE_DWORD)
+gg.refineNumber('131842', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('133634', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('132098', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('70086', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("11,932;12,004;32,768;65,536", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
@@ -885,10 +814,6 @@ os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
 os.remove("/storage/emulated/0/Android/data/com.ludashi.superboost")
 os.remove("/storage/emulated/0/Android/data/io.va.exposed/files")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/cache")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/files/al")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/files/Unity")
-os.remove("/storage/emulated/0/Android/data/com.tencent.ig.com.vng.pubgmobile.com.pubg.krmobile.com.rekoo.pubgmobile.com.tencent.iglite/files/Pictures")
 os.remove("/data/user/0/com.tencent.ig/com.tencent.ig/data/data/0/com.tencent.ig/app_bugly/sys_log_1578198950239.txt")
 gg.alert("الجوكر تم كسر الحماية")
 end
@@ -902,124 +827,145 @@ os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
 os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
 gg.clearResults()
-gg.setVisible(false)
 gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 if gg.getResultCount() == 0 then
-gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌ \n\nقم بتحميل نسخة ال32 بت")
+gg.setVisible(true)
+gg.processKill()
 os.exit()
 else
-  gg.searchNumber('2.2958874e-41', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  resultsCount = gg.getResultCount()
-  results = gg.getResults(resultsCount)
-  for i = 1, resultsCount do
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 1,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 8,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 16,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 20,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 28,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 43,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 47,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 52,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 59,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 63,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 65,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 75,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.addListItems({
-      [1] = {
-        address = results[i].address + 83,
-        flags = 4,
-        freeze = true,
-        value = 65537
-      }
-    })
-    gg.clearResults()
-  end
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+resultsCount = gg.getResultCount()
+results = gg.getResults(resultsCount)
+for i = 1, resultsCount do
+gg.addListItems({[1] = {address = results[i].address + 1,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 8,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 16,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 20,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 28,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 43,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 47,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 52,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 59,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 63,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 65,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 75,flags = 4,freeze = true,value = 65537}})
+gg.addListItems({[1] = {address = results[i].address + 83,flags = 4,freeze = true,value = 65537}})
 end
+gg.clearResults()
+end
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('135682;144387', gg.TYPE_DWORD)
+gg.refineNumber('135682', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('134658;131586', gg.TYPE_DWORD)
+gg.refineNumber('134658', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('4096;135682', gg.TYPE_DWORD)
+gg.refineNumber('4096', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('157567', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('135938', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('135170', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('135426', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('135212', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('134914;262403', gg.TYPE_DWORD)
+gg.refineNumber('134914', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('133378;262403', gg.TYPE_DWORD)
+gg.refineNumber('133378', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('131330;133634', gg.TYPE_DWORD)
+gg.refineNumber('131330', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.setVisible(false)
+gg.searchNumber('131842;132098', gg.TYPE_DWORD)
+gg.refineNumber('131842', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.setVisible(false)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('133634', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber('132098', gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll('0', gg.TYPE_DWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("11,932;12,004;32,768;65,536", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("1.47977118e-41",16, false, 536870912, 0, -1)
@@ -1099,503 +1045,344 @@ end
 gg.addListItems(t)
 t = nil
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("135682;144387",4)
-gg.searchNumber("135682",4)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
 gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134658;131586",4)
-gg.searchNumber("134658",4)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134914;262403",4)
-gg.searchNumber("134914",4)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133378;262403",4)
-gg.searchNumber("133378",4)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("131330;133634",4)
-gg.searchNumber("131330",4)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1,348,759,109;1953067887;1,634,692,166;1,920,287,604::28", 4,false ,536870912 ,0 ,-1)
-gg.searchNumber("1634692166",4 ,false ,536870912 ,0 ,-1)
-revert = gg.getResults(1000)
-local t = gg.getResults(1000)
-for i, v in ipairs(t) do
-if v.flags == gg.TYPE_DWORD then
-v.value = "0"
-v.freeze = true
-end
-end
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('133378', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('133378', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('70658', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('70658', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('65537', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('65537', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('144387', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('144387', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('131842', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('131842', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('132098', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('132098', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('133890', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('133890', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('262403', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('262403', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.addListItems((gg.getResults(121192, nil, nil, nil, nil, nil, nil, nil, nil)))
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('196860', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber('196860', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, i in ipairs((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil))) do
-  if i.flags == gg.TYPE_DWORD then
-    i.value = '0'
-    i.freeze = true
-  end
-end
-gg.alert(" الجوكر تم كسر الحماية")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
+os.remove("/storage/emulated/0/Android/data/com.ludashi.superboost")
+os.remove("/storage/emulated/0/Android/data/io.va.exposed/files")
+os.remove("/data/user/0/com.tencent.ig/com.tencent.ig/data/data/0/com.tencent.ig/app_bugly/sys_log_1578198950239.txt")
+gg.alert("الجوكر تم كسر الحماية")
 end
 
 
 
 function krr2()
-MN10 = gg.multiChoice({
-"⁦⚠️⁩ 3- حماية تدريب بعد 300 طلقه ",
-"⁦⚠️⁩ 4- حماية اللوبي بعد العوده من التدريب ",
-"❌ رجوع إلى الخلف",
-},nil, (os.date("الرجاء التركيز في تفعيل هذه الحمايه ")))               
-if MN10 == nil then
-else
-if MN10[1] == true then 
-TRA77()end
-if MN10[2] == true then 
-k3()end
-if MN10[3] == true then
-HOME()end
-AUTOSC = -1
-end
-end
-
-
-
-function TRA77()
-gg.clearResults()
+  gg.clearResults()
+  gg.clearResults()
   gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  if gg.getResultCount() == 0 then
-    gg.alert("حدث خطأ ❎ الرجاء اغلاق اللعبة والمحاوله مجددا ")
-  else
-    NotXAnuGame = gg.alert('تم تفعيل الحمايه بالتدرب بنجاح')
-      gg.refineNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("144387", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  revert = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-	if v.flags == gg.TYPE_DWORD then
-		v.value = "0"
-		v.freeze = true
-	end
-end
-gg.addListItems(t)
-t = nil
-gg.alert(' العوده للوبي وتفعيل حمايه اللوبي')
-end
-end
-
-
-
-function k3()
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations")
-os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
-os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 if gg.getResultCount() == 0 then
 gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
 gg.setVisible(true)
 gg.processKill()
 os.exit()
 else
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-n = gg.getResultCount()
-jz = gg.getResults(n)
-for i = 1, n do
-gg.addListItems({[1] = {address = jz[i].address - 252,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 236,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 232,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 72,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 68,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address - 64,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 30,flags = 4,freeze = true,value = 119}})
-gg.addListItems({[1] = {address = jz[i].address + 130,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 180,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 200,flags = 4,freeze = true,value = 4451}})
-gg.addListItems({[1] = {address = jz[i].address + 300,flags = 4,freeze = true,value = 0}})
-gg.addListItems({[1] = {address = jz[i].address + 310,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 360,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 450,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 650,flags = 4,freeze = true,value = 70086}})
-gg.addListItems({[1] = {address = jz[i].address + 800,flags = 4,freeze = true,value = 70086}})
-end
-gg.clearResults()
-end
-gg.clearResults()
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-	if v.flags == gg.TYPE_DWORD then
-		v.value = "0"
-		v.freeze = true
-	end
-end
-gg.addListItems(t)
-t = nil
-gg.processResume()
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-
-gg.clearResults()
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-
-revert = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-	if v.flags == gg.TYPE_DWORD then
-		v.value = "0"
-		v.freeze = true
-	end
-end
-gg.addListItems(t)
-t = nil
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-
-gg.clearResults()
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-
-revert = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-local t = gg.getResults(500000, nil, nil, nil, nil, nil, nil, nil, nil)
-for i, v in ipairs(t) do
-	if v.flags == gg.TYPE_DWORD then
-		v.value = "0"
-		v.freeze = true
-	end
-end
-gg.addListItems(t)
-t = nil
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(b2efaa7)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(befa1ee)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(9567623)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(9a6986f)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(bbe98d6)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(7f4ec6b)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(ed8c3c2)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(a45b958)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(140701)
-gg.addListItems({ -- table(9d5e0a5)
-})
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
+    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    n = gg.getResultCount()
+    jz = gg.getResults(n)
+    for i = 1, n do
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address - 252,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address - 236,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address - 232,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address - 72,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address - 68,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address - 64,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 30,
+          flags = 4,
+          freeze = true,
+          value = 119
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 130,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 180,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 200,
+          flags = 4,
+          freeze = true,
+          value = 4451
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 300,
+          flags = 4,
+          freeze = true,
+          value = 0
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 310,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 360,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 450,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 650,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.addListItems({
+        [1] = {
+          address = jz[i].address + 800,
+          flags = 4,
+          freeze = true,
+          value = 70086
+        }
+      })
+      gg.clearList()
+    end
+  end
+  os.remove("src/main/java/com/google/errorprone/annotations")
+  os.remove("src/main/java/com/google/errorprone/annotations")
+  os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+  os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608;196,608:45", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("196,608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  jg = gg.getResults(100)
+  sl = gg.getResultCount()
+  for i = 1, sl do
+    dzy = jg[i].address
+    gg.addListItems({
+      [1] = {
+        address = dzy,
+        flags = gg.TYPE_DWORD,
+        freeze = true,
+        value = 110
+      }
+    })
+  end
+  gg.clearResults()
+  gg.setRanges(gg.REGION_CODE_APP)
+  gg.searchNumber("1.84059112e-35;1.84059112e-35;1.84059112e-35", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.84059112e-35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  jg = gg.getResults(100)
+  sl = gg.getResultCount()
+  for i = 1, sl do
+    dzy = jg[i].address
+    gg.addListItems({
+      [1] = {
+        address = dzy,
+        flags = gg.TYPE_DWORD,
+        freeze = true,
+        value = 110
+      }
+    })
+  end
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("135682;144387", gg.TYPE_DWORD)
+  gg.refineNumber("135682", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("134658;131586", gg.TYPE_DWORD)
+  gg.refineNumber("134658", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("4096;135682", gg.TYPE_DWORD)
+  gg.refineNumber("4096", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("157567", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("135938", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("135170", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("135426", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("135212", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("134914;262403", gg.TYPE_DWORD)
+  gg.refineNumber("134914", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("133378;262403", gg.TYPE_DWORD)
+  gg.refineNumber("133378", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("131330;133634", gg.TYPE_DWORD)
+  gg.refineNumber("131330", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("131842;132098", gg.TYPE_DWORD)
+  gg.refineNumber("131842", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("133634", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("131331", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("132098", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("7,037,296;15,751;15,751:641", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("73,696;65,504;14643;12,596", gg.TYPE_DWORD)
+  gg.getResults(50000)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.54563795e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99999)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.setVisible(false)
+  gg.searchNumber("25536;34817", gg.TYPE_DWORD)
+  gg.refineNumber("25536", gg.TYPE_DWORD)
+  gg.getResults(99999)
+  gg.setVisible(false)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.54563795e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99999)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.4789304e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99999)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("4.74745907e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99999)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.54563795e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99999)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.0131465e-38", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(99999)
+  gg.editAll("0", gg.TYPE_DWORD)
+  gg.clearResults()
 os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations")
 os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
@@ -1663,37 +1450,19 @@ gg.clearResults()
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(92)
-gg.editAll("-89999960", gg.TYPE_FLOAT)
+gg.getResults(2)
+gg.editAll("-460", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(92)
-gg.editAll("-99999960", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1;20.51941871643;2.04908943176;-86.45767974854;-92.2311706543;16.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("75", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("180", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("99999", gg.TYPE_FLOAT)
+gg.getResults(2)
+gg.editAll("-560", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
-gg.editAll("200", gg.TYPE_FLOAT)
+gg.editAll("180", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.toast("ALJOKER🇦🇪⁩ＶＩＰ🤡") 
 end
@@ -3507,6 +3276,10 @@ gg.sleep(1000)
 if revert ~= nil then gg.setValues(revert) end
 gg.clearResults()
 end
+
+
+
+
 
 function appgap() 
 gg.clearResults()
